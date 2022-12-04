@@ -29,4 +29,4 @@ Route::middleware([
 });
 
 //Route::resource('photos', PhotoController::class);
-Route::resource('photos', PhotoController::class)->only(['index','show','store','update']);
+Route::resource('photos', PhotoController::class)->only(['index','show','store','update','destroy']);
